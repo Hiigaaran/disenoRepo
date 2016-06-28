@@ -3,6 +3,9 @@
 <meta charset="utf-8" />
 <div class="login-page">
   <div class="form">
+    <img src="imagenes/unreal_logo.gif" width="171" height="34">
+    </br>
+    </br>
     <form class="register-form">
       <input type="text" placeholder="Nombre Usuario"/>
       <input type="password" placeholder="Contraseña"/>

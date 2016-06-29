@@ -10,14 +10,14 @@ class Usuario {
 	
 	public function __construct() {}
 	
-	public function Cliente($rut, $nombre,$apel,$user,$pass) { 
+	public function Usuario($rut, $nombre,$apel,$user,$pass) { 
         $this->rut=$rut;
 	    $this->nombre=$nombre;
 	    $this->apel=$apel;
 	    $this->user=$user;
 	    $this->pass=$pass;	
 	}
-	//GETTER
+	//GETTERS
 	public function getRut() {
         return $this->rut;
     }
@@ -33,7 +33,7 @@ class Usuario {
 	public function getPass() {
         return $this->pass;
     }
-	//MUTANTES
+	//SETTERS
 	public function setRut($rut) {
         $this->rut=$rut;
     }

@@ -11,7 +11,7 @@ class Productos {
 
     public function __contruct() {}
 
-    public function Cliente($id_prod, $nombre, $descripcion, $stock, $id_suc, $id_cat) {
+    public function Productos($id_prod, $nombre, $descripcion, $stock, $id_suc, $id_cat) {
         $this->id_prod=$id_prod;
         $this->nombre=$nombre;
         $this->descripcion=$descripcion;

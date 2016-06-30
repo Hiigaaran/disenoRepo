@@ -78,31 +78,10 @@
                     </ul>
                 </div>
             </nav>
- <div id="page-wrapper">
-
+            <div id="page-wrapper">
                 <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">
-                                Movimientos
-                            </h1>
-                            <ol class="breadcrumb">
-                                <li>
-                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
-                                </li>
-                                <li class="active">
-                                    <i class="fa fa-edit"></i> Movimientos
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div id="subviewPlaceHolder_id">
-                        
-                    </div>
-
-                     
+                <div id="subviewPlaceHolder_id">
+            </div>
         </div>
         <!-- jQuery -->
         <script src="../bootstrap/js/jquery.js"></script>

@@ -72,7 +72,7 @@
                             <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
                         </li>
                         <li >
-                            <a href="GUI_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+                            <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>
                         </li>
                     </ul>

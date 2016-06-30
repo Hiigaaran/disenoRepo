@@ -6,7 +6,26 @@
 			<!--Trabajen Aqui!!-->  
   			<div class="jumbotron">
     			<h1>Categorias en Sistema</h1>
-    			
+    			 <div class="col-lg-6">
+                
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Nombre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>/index.html</td>
+                                <td>1265</td>                                
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
   			</div>
   						<!--Trabajen Aqui!!-->  
     	</div>

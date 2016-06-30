@@ -74,7 +74,6 @@
                         <li >
                             <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>
-                        </li>
                     </ul>
                 </div>
             </nav>

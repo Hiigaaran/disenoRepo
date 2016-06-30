@@ -81,27 +81,6 @@
                 </div>
                 <!-- /.navbar-collapse -->
             </nav>
-
-            <div id="page-wrapper">
-
-                <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">
-                                Perfil <small>Usuario Administrador</small>
-                            </h1>
-                            <ol class="breadcrumb">
-                                <li class="active">
-                                    <i class="fa fa-dashboard"></i> Master
-                                </li>
-                            </ol>
-                        </div>
-                    </div>               
-                </div>
-                <!-- /.row -->
-            </div>
             <!-- /.container-fluid -->
         </div>
         <!-- jQuery -->

@@ -9,7 +9,7 @@ class Conexion
    public function __construct(){}
    
    public function abrirConexion()
-   { $this->conex=mysql_connect($this->host,$this->usuario,$this->clave) or die ("Problema de conexion con URL");
+   { $this->conex=@mysql_connect($this->host,$this->usuario,$this->clave) or die ("Problema de conexion con URL");
      mysql_select_db($this->bdatos,$this->conex) or die ("Problema de Ubicacion de la BD...");
    }
    

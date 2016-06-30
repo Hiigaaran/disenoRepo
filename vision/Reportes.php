@@ -35,7 +35,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Sistema de Inventario</a>
+                    <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
@@ -74,6 +74,9 @@
                         </li>
                         <li>
                             <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+                        </li>
+                              <li >
+                            <a href="GUI_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>
                     </ul>
                 </div>

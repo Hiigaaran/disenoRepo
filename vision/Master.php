@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,11 +21,8 @@
         <!-- Custom Fonts -->
         <link href="../bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </head>
-
     <body>
-
         <div id="wrapper">
-
             <!-- Navigation -->
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,7 +33,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Sistema de Inventario</a>
+                    <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
@@ -76,12 +71,38 @@
                         <li>
                             <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
                         </li>
+                        <li >
+                            <a href="GUI_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+                        </li>
                         </li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
             </nav>
-            <!-- /.container-fluid -->
+ <div id="page-wrapper">
+
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">
+                                Movimientos
+                            </h1>
+                            <ol class="breadcrumb">
+                                <li>
+                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                </li>
+                                <li class="active">
+                                    <i class="fa fa-edit"></i> Movimientos
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="subviewPlaceHolder_id">
+                        
+                    </div>
+
+                     
         </div>
         <!-- jQuery -->
         <script src="../bootstrap/js/jquery.js"></script>

@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Sistema de Inventario</a>
+                    <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
@@ -75,34 +75,16 @@
                         <li>
                             <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
                         </li>
+                              <li >
+                            <a href="GUI_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </nav>
-
             <div id="page-wrapper">
 
-                <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">
-                                Nuevo Producto
-                            </h1>
-                            <ol class="breadcrumb">
-                                <li>
-                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Master</a>
-                                </li>
-                                <li class="active">
-                                    <i class="fa fa-bar-chart-o"></i> Nuevo Producto
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container-fluid -->
             </div>
             <!-- /#page-wrapper -->
         </div>

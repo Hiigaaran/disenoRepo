@@ -15,8 +15,9 @@
 
 <?php
 	include('master.php');
+	include("../datos/Conexion.php");
 	 $objConex= new Conexion();
- 	 $objConex->abrirConexion();
+ 	 $objConex=abrirConexion();
 	 $sql="SELECT * FROM CATEGORIA";
 	 $clie=mysql_query($sql) or die ("Problema en conexion  a Tabla Cliente");
 	 

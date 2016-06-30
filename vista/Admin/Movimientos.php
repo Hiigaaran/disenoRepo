@@ -17,12 +17,15 @@
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
 
-    <!-- Morris Charts CSS -->
-    <link href="css/plugins/morris.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -44,6 +47,8 @@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
+              
+           
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -58,7 +63,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="../disenoRepo/index.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -66,21 +71,19 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
+                    </li>
+                    <li>
+                        <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
+                    </li>
+                    <li>
+                        <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
+                    </li>
                     <li class="active">
-                        <a href="Master.html"><i class="fa fa-fw fa-dashboard"></i> Master</a>
+                        <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
                     </li>
-                    <li>
-                        <a href="NuevoProducto.html"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
-                    </li>
-                    <li>
-                        <a href="Reportes.html"><i class="fa fa-fw fa-table"></i> Reportes</a>
-                    </li>
-                    <li>
-                        <a href="Movimientos.html"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
-                    </li>
-                    </li>
-                </ul>
-            </div>
+                    
             <!-- /.navbar-collapse -->
         </nav>
 
@@ -92,17 +95,19 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Perfil <small>Usuario Administrador</small>
+                            Movimientos
                         </h1>
                         <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                            </li>
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Master
+                                <i class="fa fa-edit"></i> Movimientos
                             </li>
                         </ol>
                     </div>
-                </div>               
                 </div>
-               
+                <!-- /.row -->
                 <!-- /.row -->
 
             </div>
@@ -119,11 +124,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
 
 </body>
 

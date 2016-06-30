@@ -23,6 +23,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+
 </head>
 
 <body>
@@ -44,7 +45,6 @@
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
-                    <!---->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
@@ -66,19 +66,21 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li>
-                        <a href="Master.html"><i class="fa fa-fw fa-dashboard"></i> Master</a>
-                    </li>
                     <li class="active">
-                        <a href="NuevoProducto.html"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
+                        <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
                     </li>
                     <li>
-                        <a href="Reportes.html"><i class="fa fa-fw fa-table"></i> Reportes</a>
+                        <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
                     </li>
                     <li>
-                        <a href="Movimientos.html"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+                        <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
                     </li>
-                    
+                    <li>
+                        <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </nav>
 
@@ -90,21 +92,17 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Nuevo Producto
+                            Perfil <small>Usuario Administrador</small>
                         </h1>
                         <ol class="breadcrumb">
-                            <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Master</a>
-                            </li>
                             <li class="active">
-                                <i class="fa fa-bar-chart-o"></i> Nuevo Producto
+                                <i class="fa fa-dashboard"></i> Master
                             </li>
                         </ol>
                     </div>
+                </div>               
                 </div>
-                <!-- /.row -->
-
-                
+               
                 <!-- /.row -->
 
             </div>
@@ -126,14 +124,6 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
-    <!-- Flot Charts JavaScript -->
-    <!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
-    <script src="js/plugins/flot/jquery.flot.js"></script>
-    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
-    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
-    <script src="js/plugins/flot/flot-data.js"></script>
 
 </body>
 

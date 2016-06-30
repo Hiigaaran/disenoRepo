@@ -66,16 +66,16 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="Master.html"><i class="fa fa-fw fa-dashboard"></i> Master</a>
+                        <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
                     </li>
                     <li>
-                        <a href="NuevoProducto.html"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
+                        <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
                     </li>
                     <li class="active">
-                        <a href="Reportes.html"><i class="fa fa-fw fa-table"></i> Reportes</a>
+                        <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
                     </li>
                     <li>
-                        <a href="Movimientos.html"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+                        <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
                     </li>
                     
             <!-- /.navbar-collapse -->

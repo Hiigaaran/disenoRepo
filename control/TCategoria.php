@@ -1,5 +1,5 @@
 <?php
-require_once("../negocio/producto.php");
+require_once("../negocio/categoria.php");
 if(isset($_POST["id_cat"]) && $_POST["id_cat"]!="")
 { $id_cat=$_POST["id_cat"];}
 if(isset($_POST["nombre"]) && $_POST["nombre"]!="")

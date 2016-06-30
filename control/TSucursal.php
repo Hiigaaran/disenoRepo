@@ -1,5 +1,5 @@
 <?php
-require_once("../negocio/producto.php");
+require_once("../negocio/sucursal.php");
 if(isset($_POST["id_suc"]) && $_POST["id_suc"]!="")
 { $id_suc=$_POST["id_suc"];}
 if(isset($_POST["direccion"]) && $_POST["direccion"]!="")

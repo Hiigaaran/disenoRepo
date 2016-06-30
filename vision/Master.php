@@ -76,16 +76,28 @@
                         </li>
                         <li >
                             <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+
+                        </li>
+                          <li >
+                            <a href="Prueba.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>PRUEBA</a>
+
                         </li>
                     </ul>
                 </div>
             </nav>
+<<<<<<< Updated upstream
             <div id="page-wrapper">
                 <div class="container-fluid">
                 <div id="subviewPlaceHolder_id">
                 
+=======
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                 <div id="subviewPlaceHolder_id">
+                 </div>      
+>>>>>>> Stashed changes
             </div>
-        </div>
+     
         <!-- jQuery -->
         <script src="../bootstrap/js/jquery.js"></script>
 

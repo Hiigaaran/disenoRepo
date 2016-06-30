@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-	
+	<?php
+    include('Master.php');
+    ?>
 	<body>
 		<div id="page-wrapper">
 			<!--Trabajen Aqui!!--> 
@@ -9,6 +11,7 @@
     		<div id="subviewPlaceHolder_id">
             <h1>Categorias en Sistema</h1>
     			 <div class="col-lg-6">
+<<<<<<< Updated upstream
                 <?php
 				include('master.php');
                 include("../datos/Conexion.php");
@@ -39,9 +42,32 @@
                     
                     
             </div>    
+=======
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Nombre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>/index.html</td>
+                                <td>1265</td>                                
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+>>>>>>> Stashed changes
             </div>
   			</div>
   						<!--Trabajen Aqui!!-->  
     	</div>
     </body>
 </html>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes

@@ -12,10 +12,10 @@
                 </h1>
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                        <i class="fa fa-dashboard"></i>  <a href="Master.php">Master</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-edit"></i> Productos
+                        <i class="fa fa-edit"></i> Gesition Productos
                     </li>
                 </ol>
             </div>

@@ -2,6 +2,7 @@
 <html>
     <?php
         include('master.php');
+		include("../Datos/Conexion.php");
         
     ?>
 	<body>

@@ -15,7 +15,7 @@
                         <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-calculator"></i> Categorias
+                        <i class="fa fa-calculator"></i> Ingreso de Categorias
                     </li>
                 </ol>
                 
@@ -27,7 +27,17 @@
                         <tbody>
                             <tr>
                                 <td>Codigo de Categoria</td>
-                                <td><input type=text name=id_cat></td></td>                          
+                                <td><input type=text name=id_cat   /* Apply this selector to the element on which this effects needs to be applied*/
+
+
+
+.blurryText{
+
+   color: transparent;
+
+   text-shadow: 0 0 5px rgba(131,246,228,0.8);
+
+}></td></td>                          
                             </tr>
                             <tr>
                                 <td>Nombre</td>

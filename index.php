@@ -27,7 +27,7 @@
     require_once("../datos/Conexion.php");
     $objConex= new Conexion();
     $objConex->abrirConexion();
-    $sql="SELECT * FROM USUARIO WHERE(USER='".$usuario."' AND PASS='".$clave."')";
+    $sql="SELECT * FROM USUARIO WHERE USER='".$usuario."' AND PASS='".$clave."'";
     $cuenta=mysql_query($sql) or die ("Problema en conexion...Verifique");
     while($datos=mysql_fetch_row($cuenta))
     {  $usu=$datos[3];
@@ -35,7 +35,7 @@
        $per=$datos[1]; 
     }
     if($usu==$usuario && $cla==$clave)
-       { header("Location:vision/Movimientos.php");}
+       { header("Location:../vision/Movimientos.php");}
     else
        { echo "USUARIO NO VALIDO...";}
 

@@ -85,17 +85,17 @@
                     </ul>
                 </div>
             </nav>
-<<<<<<< Updated upstream
+
             <div id="page-wrapper">
                 <div class="container-fluid">
                 <div id="subviewPlaceHolder_id">
                 
-=======
+
         <div id="page-wrapper">
             <div class="container-fluid">
                  <div id="subviewPlaceHolder_id">
                  </div>      
->>>>>>> Stashed changes
+
             </div>
      
         <!-- jQuery -->

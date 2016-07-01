@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
-	<?php
-    include('Master.php');
-    ?>
-	<body>
-		<div id="page-wrapper">
+		<body>
+		
 			<!--Trabajen Aqui!!--> 
- 
-  			<div class="jumbotron container-fluid" >
-    		<div id="subviewPlaceHolder_id">
-            <h1>Categorias en Sistema</h1>
-    			 <div class="col-lg-6">
-<<<<<<< Updated upstream
+            
                 <?php
 				include('master.php');
                 include("../datos/Conexion.php");
+				
+				echo "<div id='page-wrapper'>";
+				echo "<div class='container-fluid' >";
+				echo "<div id='subviewPlaceHolder_id'>";
+				echo "<h2 class='page-header'>Categorias en Sistema</h2>";
+				echo "<div class='col-lg-6'>";
+				echo "<ol class='breadcrumb'><li><i class='fa fa-dashboard'></i>  <a href='index.html'>Dashboard					                      </a>
+                    </li>
+                    <li class='active'>
+                        <i class='fa fa-calculator'></i> Categorias
+						
+                    </li>
+                </ol>";
+				
+				
 				$objConex= new Conexion();
  	 			$objConex->abrirConexion();
-	 			$sql="SELECT * FROM CATEGORIA";
-	 			$clie=mysql_query($sql) or die ("Problema en conexion  a Tabla Categoria");
+	 			$sql="SELECT * FROM categoria";
+	 			$cat=mysql_query($sql) or die ("Problema en conexion  a Tabla Categoria");
 				echo "<div class='table-responsive'>";
 				echo "<table class='table table-hover table-striped'>";
 				echo	"<thead>";
@@ -28,7 +35,7 @@
                 echo            "</tr>";
                 echo        "</thead>";
                 echo        "<tbody>";
-                while($matrix=mysql_fetch_row($clie))
+                while($matrix=mysql_fetch_row($cat))
   			  { echo "<tr>";
    				echo "<td>".$matrix[0]."</td>";
 				echo "<td>".$matrix[1]."</td>";			
@@ -42,7 +49,7 @@
                     
                     
             </div>    
-=======
+
                 <div class="table-responsive">
                     <table class="table table-hover table-striped">
                         <thead>
@@ -56,18 +63,14 @@
                                 <td>/index.html</td>
                                 <td>1265</td>                                
                             </tr>
-                           
+                          
                         </tbody>
                     </table>
                 </div>
->>>>>>> Stashed changes
+
             </div>
   			</div>
   						<!--Trabajen Aqui!!-->  
     	</div>
     </body>
 </html>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes

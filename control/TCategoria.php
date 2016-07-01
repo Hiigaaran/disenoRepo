@@ -7,7 +7,7 @@ if(isset($_POST["nombre"]) && $_POST["nombre"]!="")
 
 if(isset($_POST["OK"]) && $_POST["OK"]=="Insertar")
 { //Trigger insercion
-  $objCategoria= new Categoria();//Instancia
+  $objCategoria= new Categoria($id_cat, $nombre);//Instancia
   $objCategoria->Categoria($id_cat, $nombre);
   $resul=$objCategoria->insertarCategoria();
   if($resul!="") header("Location:../Vision/View_Categoria.php");

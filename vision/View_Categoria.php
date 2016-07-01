@@ -2,7 +2,7 @@
 <html>
     <?php
         include('master.php');
-        include("../datos/Conexion.php");
+        
     ?>
 	<body>
 		
@@ -26,6 +26,7 @@
  	 		$objConex->abrirConexion();
 	 		$sql="SELECT * FROM categoria";
 	 		$cat=mysql_query($sql) or die ("Problema en conexion  a Tabla Categoria");
+			echo "<html><center>";
 			echo "<div class='table-responsive'>";
 			echo "<table class='table table-hover table-striped'>";
 			echo	"<thead>";
@@ -44,24 +45,10 @@
             echo       "</tbody>";
             echo    "</table>";
             echo "</div>";
+			echo "</html>";
 		?>
                 
-        <div class="table-responsive">
-            <table class="table table-hover table-striped">
-                <thead>
-                    <tr>
-                        <th>Codigo</th>
-                        <th>Nombre</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>/index.html</td>
-                        <td>1265</td>                                
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+       
   		<!--Trabajen Aqui!!-->
     </body>
 </html>

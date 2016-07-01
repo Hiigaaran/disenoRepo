@@ -11,6 +11,7 @@ class Categoria {
         $this->id_cat=$id_cat;
         $this->nombre=$nombre;
     }
+	
 
     //GETTERS
     public function getId_cat() {

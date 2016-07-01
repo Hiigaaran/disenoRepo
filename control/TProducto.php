@@ -1,5 +1,5 @@
 <?php
-require_once("../negocio/producto.php");
+require_once("../negocio/Producto.php");
 if(isset($_POST["id_prod"]) && $_POST["id_prod"]!="")
 { $id_prod=$_POST["id_prod"];}
 if(isset($_POST["nombre"]) && $_POST["nombre"]!="")
@@ -18,9 +18,9 @@ if(isset($_POST["OK"]) && $_POST["OK"]=="Insertar")
   $objProductos= new Productos();//Instancia
   $objProductos->Productos($id_prod, $nombre, $descripcion, $stock, $id_suc, $id_cat);
   $resul=$objProductos->insertarProducto();
-  if($resul!="") header("Location:../Vision/View_Producto.php");
+  if($resul!="") header("Location:../vision/NuevoProducto.php");
   else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../Vision/View_Producto.php'</script>";  
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/NuevoProducto.php'</script>";  
   }
   
 }
@@ -29,9 +29,9 @@ if(isset($_POST["OK1"]) && $_POST["OK1"]=="Modificar")
   $objProductos= new Productos();//Instancia
   $objProductos->Productos($id_prod, $nombre, $descripcion, $stock, $id_suc, $id_cat);
   $resul=$objProductos->modificarProducto();
-   if($resul!="") header("Location:../Vision/View_Producto.php");
+   if($resul!="") header("Location:../vision/NuevoProducto.php");
   else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../Vision/View_Producto.php'</script>";  
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/NuevoProducto.php'</script>";  
   }
 }
 if(isset($_POST["OK2"]) && $_POST["OK2"]=="Eliminar")
@@ -39,9 +39,9 @@ if(isset($_POST["OK2"]) && $_POST["OK2"]=="Eliminar")
   $objProductos= new Productos();//Instancia
   $objProductos->setId_prod($id_prod);//a memoria
   $resul=$objProductos->eliminarProducto($id_prod);
-   if($resul!="") header("Location:../Vision/View_Producto.php");
+   if($resul!="") header("Location:../vision/NuevoProducto.php");
   else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../Vision/View_Producto.php'</script>";  
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/NuevoProducto.php'</script>";  
   }
 }
 if(isset($_POST["OK"]) && $_POST["OK"]=="Buscar")

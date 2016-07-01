@@ -9,7 +9,7 @@ class Productos {
     private $id_suc;
     private $id_cat;
 
-    public function __contruct() {}
+    public function __construct() {}
 
     public function Productos($id_prod, $nombre, $descripcion, $stock, $id_suc, $id_cat) {
         $this->id_prod=$id_prod;
@@ -74,7 +74,7 @@ class Productos {
 	public function insertarProducto() {  
         $objConex= new Conexion();
 	    $objConex->abrirConexion();
-	    $sql="INSERT INTO PRODUCTOS VALUES('".$this->id_prod."','".$this->nombre."','".$this->descripcion."','".$this->stock."','".$this->id_suc."','".$this->id_cat."')";
+	    $sql="INSERT INTO PRODUCTOS VALUES('".$this->id_prod."','".$this->nombre."','".$this->descripcion."',".$this->stock.",'".$this->id_suc."','".$this->id_cat."')";
 	    $resul=$objConex->ejecutarTransaccion($sql);	
 	    return $resul;
 	}
@@ -82,7 +82,7 @@ class Productos {
 	public function modificarProducto() {  
         $objConex= new Conexion();
 	    $objConex->abrirConexion();
-	    $sql="UPDATE PRODUCTOS SET ID_PROD='".$this->id_prod."',NOMBRE='".$this->nombre."',DESCRIPCION='".$this->descripcion."',STOCK='".$this->stock."',ID_SUC='".$this->id_suc."',ID_CAT='".$this->id_cat."' WHERE(ID_PROD='".$this->id_prod."')";	  
+	    $sql="UPDATE PRODUCTOS SET ID_PROD='".$this->id_prod."',NOMBRE='".$this->nombre."',DESCRIPCION='".$this->descripcion."',STOCK=".$this->stock.",ID_SUC='".$this->id_suc."',ID_CAT='".$this->id_cat."' WHERE(ID_PROD='".$this->id_prod."')";	  
 	    $resul=$objConex->ejecutarTransaccion($sql);	
 	    return $resul;
 	}

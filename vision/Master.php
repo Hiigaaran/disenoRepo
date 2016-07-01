@@ -74,6 +74,10 @@
                         <li>
                             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
                         </li>
+                        <li>
+                            <a href="NuevaCategoria.php"><i class="fa fa-calculator fa-edit"></i> Mantenedor Categorias</a>
+                        </li>
+                        
                         <li >
                             <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>

@@ -42,7 +42,7 @@
                 </form>
                 <h1>Detalle de Productos</h1>
                 <div id=tablaDatos>
-                    
+
                 </div>
             </div>
         </div>

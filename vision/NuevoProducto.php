@@ -42,6 +42,42 @@
                 </form>
                 <h1>Detalle de Productos</h1>
                 <div id=tablaDatos>
+<<<<<<< HEAD
+=======
+                    <?php
+			            $objConex= new Conexion();
+ 	 		            $objConex->abrirConexion();
+	 		            $sql="SELECT * FROM productos";
+	 		            $cat=mysql_query($sql) or die ("Problema en conexion  a Tabla Categoria");
+			            echo "<div class='table-responsive'>";
+			            echo "<table class='table table-hover table-striped'>";
+			            echo	"<thead>";
+                        echo           "<tr>";
+                        echo                "<th>Codigo</th>";
+                        echo                "<th>Nombre</th>";
+                        echo                "<th>Descripción</th>";
+                        echo                "<th>Stock</th>";
+                        echo                "<th>Id Sucursal</th>";
+                        echo                "<th>Id Categoria</th>";
+                        echo            "</tr>";
+                        echo        "</thead>";
+                        echo        "<tbody>";
+                        while($matrix=mysql_fetch_row($cat))
+    		            {   echo "<tr>";
+   			                echo "<td>".$matrix[0]."</td>";
+			                echo "<td>".$matrix[1]."</td>";
+                            echo "<td>".$matrix[2]."</td>";
+                            echo "<td>".$matrix[3]."</td>";
+                            echo "<td>".$matrix[4]."</td>";
+                            echo "<td>".$matrix[5]."</td>";			
+			                echo "</tr>";
+  			            }                       
+                        echo       "</tbody>";
+                        echo    "</table>";
+                        echo "</div>";
+			            echo "</html>";
+		            ?>
+>>>>>>> fc949a0852d31badda81621ae173319ae82cf9a7
                 </div>
             </div>
         </div>

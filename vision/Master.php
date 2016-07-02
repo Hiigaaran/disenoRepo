@@ -18,7 +18,10 @@
   <!-- Morris Charts CSS -->
   <link href="../bootstrap/css/plugins/morris.css" rel="stylesheet">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc949a0852d31badda81621ae173319ae82cf9a7
   <!-- Custom Fonts -->
   <link href="../bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -36,27 +39,6 @@
         </button>
         <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
       </div>
-      <!-- Top Menu Items -->
-      <ul class="nav navbar-right top-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
       <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
@@ -64,13 +46,7 @@
             <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
           </li>
           <li>
-            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
-          </li>
-          <li>
-            <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
-          </li>
-          <li>
-            <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Gestión Productos</a>
           </li>
           <li>
             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
@@ -78,7 +54,10 @@
           <li>
             <a href="NuevaCategoria.php"><i class="fa fa-calculator fa-edit"></i> Mantenedor Categorias</a>
           </li>
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc949a0852d31badda81621ae173319ae82cf9a7
         <!-- Custom Fonts -->
         <link href="../bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </head>
@@ -96,27 +75,6 @@
                     </button>
                     <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
                 </div>
-                <!-- Top Menu Items -->
-                <ul class="nav navbar-right top-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
                 <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav side-nav">
@@ -124,7 +82,11 @@
                             <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
                         </li>
                         <li>
+<<<<<<< HEAD
                             <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
+=======
+                            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Gestión Producto</a>
+>>>>>>> fc949a0852d31badda81621ae173319ae82cf9a7
                         </li>
                         <li>
                             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
@@ -133,7 +95,10 @@
                             <a href="NuevaCategoria.php"><i class="fa fa-calculator fa-edit"></i> Mantenedor Categorias</a>
                         </li>
                         <li >
-                            <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+                            <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Usuarios</a>
+                        </li>
+                        <li >
+                            <a href="NuevoUsuario.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestión Usuarios</a>
                         </li>
                         <li >
                             <a href="View_Sucursal.php"><i class="fa fa-fw fa-bar-chart-o" aria-hidden="true"></i>&nbsp;Sucursales</a>
@@ -144,7 +109,10 @@
                     </ul>
                 </div>
             </nav>
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc949a0852d31badda81621ae173319ae82cf9a7
 
           <!--<li >
           <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>

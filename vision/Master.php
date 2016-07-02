@@ -35,27 +35,6 @@
         </button>
         <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
       </div>
-      <!-- Top Menu Items -->
-      <ul class="nav navbar-right top-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
       <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
@@ -63,13 +42,7 @@
             <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
           </li>
           <li>
-            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Gestion Productos</a>
-          </li>
-          <li>
-            <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
-          </li>
-          <li>
-            <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Gestión Productos</a>
           </li>
           <li>
             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
@@ -94,27 +67,6 @@
                     </button>
                     <a class="navbar-brand" href="Master.php">Sistema de Inventario</a>
                 </div>
-                <!-- Top Menu Items -->
-                <ul class="nav navbar-right top-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
                 <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav side-nav">
@@ -122,13 +74,7 @@
                             <a href="Master.php"><i class="fa fa-fw fa-dashboard"></i> Master</a>
                         </li>
                         <li>
-                            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
-                        </li>
-                        <li>
-                            <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
-                        </li>
-                        <li>
-                            <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
+                            <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Gestión Producto</a>
                         </li>
                         <li>
                             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
@@ -138,7 +84,10 @@
                         </li>
                         
                         <li >
-                            <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
+                            <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Usuarios</a>
+                        </li>
+                        <li >
+                            <a href="NuevoUsuario.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestión Usuarios</a>
                         </li>
                         <li >
                             <a href="View_Sucursal.php"><i class="fa fa-fw fa-bar-chart-o" aria-hidden="true"></i>&nbsp;Sucursales</a>

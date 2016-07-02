@@ -42,6 +42,7 @@
                 </form>
                 <h1>Detalle de Productos</h1>
                 <div id=tablaDatos>
+<<<<<<< HEAD
                     <?php
 			            $objConex= new Conexion();
  	 		            $objConex->abrirConexion();
@@ -75,6 +76,9 @@
                         echo "</div>";
 			            echo "</html>";
 		            ?>
+=======
+
+>>>>>>> 79681fee9742f47a9d18d92dcf1718ce959d2428
                 </div>
             </div>
         </div>

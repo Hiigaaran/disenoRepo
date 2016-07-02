@@ -27,16 +27,16 @@
                         <tbody>
                             <tr>
                                 <td>Codigo de Categoria</td>
-                                <td><input type=text name=id_cat></td></td>                          
+                                <td><input type=text class="form-control" name=id_cat></td></td>                          
                             </tr>
                             <tr>
                                 <td>Nombre</td>
-                                <td><input type=text name=nombre></td></td>                                
+                                <td><input type=text class="form-control" name=nombre></td></td>                                
                             </tr>
                             <tr>
-                                <td><input type=submit name=OK value='Insertar'></td>
-                                <td><input type=submit name=OK1 value='Modificar'></td>
-                                <td><input type=submit name=OK2 value='Eliminar'></td>
+                                <td><input type=submit class="btn btn-default" name=OK value='Insertar'></td>
+                                <td><input type=submit  class="btn btn-default" name=OK1 value='Modificar'></td>
+                                <td><input type=submit class="btn btn-default" name=OK2 value='Eliminar'></td>
                                 
                             </tr>
                             

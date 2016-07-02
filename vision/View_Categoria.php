@@ -29,7 +29,7 @@
 	 		$cat=mysql_query($sql) or die ("Problema en conexion  a Tabla Categoria");
 			echo "<html><center>";
 			echo "<div class='table-responsive'>";
-			echo "<table class='table table-hover table-striped'>";
+			echo "<table class='table table-hover table-striped table-bordered'>";
 			echo	"<thead>";
             echo           "<tr>";
             echo                "<th>Codigo</th>";

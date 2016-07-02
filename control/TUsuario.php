@@ -25,10 +25,10 @@ if(isset($_POST["OK"]) && $_POST["OK"]=="Insertar")
   $objUsuario->Usuario($rut_user, $nomb_user, $apel_user, $usuario,$password);
   $resul=$objUsuario->insertarUsuario();
   if($resul!="") header("Location:../vision/View_Usuarios.php");
-  else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";  
+  else
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";
   }
-  
+
 }
 
 //Modificar Usuario
@@ -38,8 +38,8 @@ if(isset($_POST["OK1"]) && $_POST["OK1"]=="Modificar")
   $objUsuario->Usuario($rut_user, $nomb_user, $apel_user, $usuario,$password);
   $resul=$objUsuario->modificarUsuario();
    if($resul!="") header("Location:../vision/View_Usuarios.php");
-  else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";  
+  else
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";
   }
 }
 
@@ -47,11 +47,11 @@ if(isset($_POST["OK1"]) && $_POST["OK1"]=="Modificar")
 if(isset($_POST["OK2"]) && $_POST["OK2"]=="Eliminar")
 { //Trigger insercion
   $objUsuario= new Usuario();//Instancia
-  $objUsuario->setRut($rut_user);//a memoria
+  $objUsuario->setRut($rut_user,  $nomb_user, $apel_user, $usuario,$password);//a memoria
   $resul=$objUsuario->eliminarUsuario($rut_user);
    if($resul!="") header("Location:../vision/View_Usuarios.php");
-  else 
-  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";  
+  else
+  { echo "<script language='javascript'>alert('ERROR: DATA COULD NOT BE SAVED');window.location='../vision/View_Usuarios.php'</script>";
   }
 }
 
@@ -59,7 +59,7 @@ if(isset($_POST["OK2"]) && $_POST["OK2"]=="Eliminar")
 if(isset($_POST["OK"]) && $_POST["OK"]=="Buscar")
 { //Trigger insercion
   $objUsuario= new Usuario();//Instancia
-  $objUsuario->setRut($rut_user);//a memoria
+  $objUsuario->setRut($rut_user, $nomb_user, $apel_user, $usuario,$password);//a memoria
   $vector=$objUsuario->buscarUsuario($rut_user);
   return $vector;
 }

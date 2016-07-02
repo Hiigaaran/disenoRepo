@@ -18,7 +18,7 @@
   <!-- Morris Charts CSS -->
   <link href="../bootstrap/css/plugins/morris.css" rel="stylesheet">
 
-<<<<<<< HEAD
+
   <!-- Custom Fonts -->
   <link href="../bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -78,7 +78,7 @@
           <li>
             <a href="NuevaCategoria.php"><i class="fa fa-calculator fa-edit"></i> Mantenedor Categorias</a>
           </li>
-=======
+
         <!-- Custom Fonts -->
         <link href="../bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </head>
@@ -127,18 +127,11 @@
                             <a href="NuevoProducto.php"><i class="fa fa-fw fa-bar-chart-o"></i> Nuevo Producto</a>
                         </li>
                         <li>
-                            <a href="Reportes.php"><i class="fa fa-fw fa-table"></i> Reportes</a>
-                        </li>
-                        <li>
-                            <a href="Movimientos.php"><i class="fa fa-fw fa-edit"></i> Movimientos</a>
-                        </li>
-                        <li>
                             <a href="View_categoria.php"><i class="fa fa-calculator fa-edit"></i> Categorias</a>
                         </li>
                         <li>
                             <a href="NuevaCategoria.php"><i class="fa fa-calculator fa-edit"></i> Mantenedor Categorias</a>
                         </li>
-                        
                         <li >
                             <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>
@@ -151,7 +144,7 @@
                     </ul>
                 </div>
             </nav>
->>>>>>> 70c3fef1e8042fea7d6f474eea3f1d325541f096
+
 
           <!--<li >
           <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>

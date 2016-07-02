@@ -16,8 +16,11 @@
                     <li>
                         <i class="fa fa-dashboard"></i>  <a href="Master.php">Master</a>
                     </li>
+                    <li>
+                        <i class="fa fa-edit"></i><a href="View_Usuarios.php"> Gestión Usuarios</a>
+                    </li>
                     <li class="active">
-                        <i class="fa fa-edit"></i> Gestión Usuarios
+                        <i class="fa fa-edit"></i> Agregar Usuarios
                     </li>
                 </ol>
                 <h1>Ingreso Usuario Nuevo</h1>
@@ -25,13 +28,13 @@
                     <div id=formCRUD class="table-responsive">
                     <table class="table table-hover">
                         <tr>
-                            <td><input type=text class="form-control" name=rut placeholder="Rut"></td>
-                            <td><input type=text class="form-control" name=nombre placeholder="Nombre"></td>
-                            <td><input type=text class="form-control" name=apel placeholder="Apellido"></td>
-                            <td><input type=text class="form-control" name=user placeholder="Usuario"></td>
-                            <td><input type=text class="form-control" name=pass placeholder="Contraseña"></td>
+                            <td><input type=text class="form-control" name=rut placeholder="Rut" required ></td>
+                            <td><input type=text class="form-control" name=nombre placeholder="Nombre" required></td>
+                            <td><input type=text class="form-control" name=apel placeholder="Apellido" required ></td>
+                            <td><input type=text class="form-control" name=user placeholder="Usuario" required ></td>
+                            <td><input type=text class="form-control" name=pass placeholder="Contraseña" required ></td>
                             <td><div class="btn-group" role="group">
-                                    <input type=submit class="btn btn-default" name=OK value="Insertar">
+                                    <input type=submit class="btn btn-default" name=OK value="Insertar" >
                                 </div></td>
                         </tr>
                     </table>

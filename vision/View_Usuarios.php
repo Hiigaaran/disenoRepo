@@ -24,7 +24,7 @@ include("../datos/Conexion.php");
 <body>
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header"> Perfil <small>Usuario Administrador</small></h1>
+      <h1 class="page-header"> Gestion de Usuarios</h1>
       <ol class="breadcrumb">
         <li>
           <i class="fa fa-dashboard"></i>  <a href="Master.php">Master</a>
@@ -32,9 +32,10 @@ include("../datos/Conexion.php");
         <li class="active">
           <i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</li>
         </ol>
-
         <!--AREADETRABAJO-->
-        
+        <!--Agregar Usuario link-->
+          <li><a href="NuevoUsuario.php"><i class="fa fa-circle-o"></i> <span> Aregar Usuario</span></a></li>
+          <li><a href="MostrarUsuarios.php"><i class="fa fa-circle-o"></i> <span> Mostrar Usuarios</span></a></li>
           <!--FINAREADETRABAJO-->
         </ul>
       </nav>

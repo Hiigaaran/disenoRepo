@@ -82,10 +82,10 @@
                             <a href="View_Usuarios.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;Gestion Usuarios</a>
                         </li>
                         <li >
-                            <a href="View_Sucursal.php"><i class="fa fa-fw fa-bar-chart-o" aria-hidden="true"></i>&nbsp;Gestión de Sucursales</a>
+                            <a href="View_Sucursal.php"><i class="fa fa-fw fa-bar-chart-o" aria-hidden="true"></i>&nbsp;Sucursales</a>
                         </li>
-                        <li >
-                            <a href="Prueba.php"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>PRUEBA</a>
+                        <li>
+                            <a href="NuevaSucursal.php"><i class="fa fa-fw fa-bar-chart-o" aria-hidden="true"></i> Mantenedor Sucursales</a>
                         </li>
                     </ul>
                 </div>
